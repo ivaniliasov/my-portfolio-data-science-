@@ -59,15 +59,12 @@ text
 4. **demand_rolling_mean_7** (1.6%) - скользящее среднее
 5. **demand_rolling_std_7** (0.4%) - волатильность спроса
 
-## 🚀 Быстрый старт
-
-```bash
-# Клонирование репозитория
+# 1. Скачать проект
 git clone https://github.com/ivaniliasov/my-portfolio-data-science-.git
 cd my-portfolio-data-science-
 
-# Установка зависимостей
-pip install -r requirements.txt
+# 2. Установить зависимости
+pip install pandas numpy scikit-learn matplotlib openpyxl
 
-# Запуск полного анализа
+# 3. Запустить анализ
 python main.py
