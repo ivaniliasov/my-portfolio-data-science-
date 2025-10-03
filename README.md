@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![ML](https://img.shields.io/badge/Machine-Learning-orange)
-![Supply Chain](https://img.shields.io/badge/Supply-Chain-green)
+![Supply%20Chain](https://img.shields.io/badge/Supply-Chain-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 📋 О проекте
@@ -18,15 +18,17 @@
 ## 🏗️ Структура проекта
 my-portfolio-data-science-/
 │
-├── src/ # Исходный код
-│ ├── data/generator.py # Генерация бизнес-данных
-│ ├── features/engineer.py # Feature engineering
-│ ├── models/trainer.py # ML модели (Random Forest)
-│ ├── analysis/ # Бизнес-анализ
-│ │ ├── business_analyzer.py
-│ │ └── metrics_calculator.py
-│ └── visualization/dashboard.py # Визуализация
-│
+├── analysis/ # Бизнес-анализ
+│ ├── business_analyzer.py
+│ └── metrics_calculator.py
+├── data/ # Генерация данных
+│ └── generator.py
+├── features/ # Feature engineering
+│ └── engineer.py
+├── models/ # ML модели
+│ └── trainer.py
+├── visualization/ # Визуализация
+│ └── dashboard.py
 ├── main.py # Основной скрипт
 ├── requirements.txt # Зависимости
 └── README.md # Документация
@@ -59,6 +61,9 @@ text
 4. **demand_rolling_mean_7** (1.6%) - скользящее среднее
 5. **demand_rolling_std_7** (0.4%) - волатильность спроса
 
+## 🚀 Быстрый запуск
+
+```bash
 # 1. Скачать проект
 git clone https://github.com/ivaniliasov/my-portfolio-data-science-.git
 cd my-portfolio-data-science-
